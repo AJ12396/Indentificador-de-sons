@@ -1,0 +1,72 @@
+body{
+    font-family: "Special Elite", cursive;
+    background-color: rgb(250, 220, 220);
+
+}
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.header_div{
+    background-color: white;
+    color:rgb(245, 197, 197);;
+}
+
+.header_div p {
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 170, 170);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-div {
+    color: rgb(255, 177, 177);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.main-div button {
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px;
+    color: white;
+    background-color: rgb(255, 177, 177);
+    letter-spacing: 2px;
+
+}
+
+.row_aliens img {
+    width: 200px;
+    height: 200px;
+}
+
+.row_aliens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: rgb(255, 177, 177);
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(255, 165, 165);
+}
+
+html{
+    overflow: hidden;
+}
